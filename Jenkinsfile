@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo "Hello World after a new git commit"'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    echo "Multiline shell steps works too again"
                     ls -lah
                 '''
             }
